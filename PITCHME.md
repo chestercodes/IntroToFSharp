@@ -3,15 +3,10 @@
 ---
 
 
+---?code=code/other/fizz.fsx&lang=fsharp
 
-
-
-
-
-
-
-
-
+@[1-6](Test one)
+@[10-15](Test two)
 
 
 
