@@ -24,12 +24,8 @@ public class Contact
     public Phone Phone { get; }
     public Contact (Email email, Phone phone)
     {
-        // Valid options: 
-        // - Phone
-        // - Email
-        // - Phone and Email
-        // Invalid options: 
-        // - Neither
+        // Valid options are Phone, Email or Phone and Email
+        // Neither Email or Phone is Invalid
         if(email == null && phone == null)
         {
             throw new Exception("Need to specify email or phone");
