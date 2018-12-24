@@ -1,8 +1,8 @@
-# Intro to F# 
+# Intro to F## 
 
----
+--- 
 
-# Code
+# Fizzbuzz
 
 ---?code=code/other/fizz.fsx&lang=fsharp
 
