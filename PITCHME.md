@@ -1,4 +1,4 @@
-# Intro to F## 
+## Introduction to F# 
 
 --- 
 
@@ -13,7 +13,12 @@
 
 ---
 
-# Let's Get Started
+---?code=code/du/comms.cs&lang=cs
+
+@[1-6](Test one)
+@[10-15](Test two)
+
+
 
 ---
 
