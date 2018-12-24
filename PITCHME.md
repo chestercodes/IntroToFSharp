@@ -26,6 +26,10 @@
 @[1-4](Discriminated union to hold email)
 @[6-9](Discriminated union to hold phone)
 @[11-14](Contact type)
+@[12](Just Email)
+@[13](Just Phone)
+@[14](Email and phone)
+@[11-14](No compilable way to have neither phone or email)
 @[16-21](Creation of different named contacts)
 
 
