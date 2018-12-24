@@ -18,19 +18,15 @@ public class Phone
     }
 }
 
-public class Contact
-{
+public class Contact {
     public Email Email { get; }
     public Phone Phone { get; }
-    public Contact (Email email, Phone phone)
-    {
+    public Contact (Email email, Phone phone) {
         // Valid options are Phone, Email or Phone and Email
         // Neither Email or Phone is Invalid
-        if(email == null && phone == null)
-        {
+        if(email == null && phone == null) {
             throw new Exception("Need to specify email or phone");
         }
-
         Email = email;
         Phone = phone;
     }
