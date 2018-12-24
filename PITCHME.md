@@ -2,6 +2,7 @@
 
 ---
 
+# Code
 
 ---?code=code/other/fizz.fsx&lang=fsharp
 
