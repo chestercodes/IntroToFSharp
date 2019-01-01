@@ -17,8 +17,10 @@
 
 @[1-9](Class to contain email address)
 @[11-19](Class to contain phone number)
-@[21-33](Contact information)
-@[25-29](Contact information)
+@[21-35](Contact information)
+@[27-31](Throws if neither email or phone)
+@[41-51](Instantiation of different contact objects)
+@[50-51](Possible runtime error)
 
 
 ---?code=code/du/comms.fsx&lang=fs
