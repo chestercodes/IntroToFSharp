@@ -1,6 +1,29 @@
-## Introduction to F# 
+# Introduction to F# # 
 
 --- 
+
+
+
+---
+
+- What is F#?
+- Why use F#?
+- Useful language features
+- - Language defaults
+- - Pattern matching
+- - Record types
+- - Discriminated unions
+- - Units of measure
+- - Type providers
+
+---
+
+## What is F#? #
+
+
+
+---?include=md/why-use.md
+
 
 # Fizzbuzz
 
