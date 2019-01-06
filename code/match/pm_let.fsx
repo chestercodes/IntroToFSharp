@@ -1,1 +1,0 @@
-let (first, second) = functionThatReturnsTuple arg

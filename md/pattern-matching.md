@@ -2,17 +2,8 @@
 
 Pattern matching is ubiquitous in F#. It is used for:
 
-binding values to expressions with let
+---?code=code/match/intro.fsx&lang=fsharp
 
----?code=code/match/pm_let.fsx&lang=fsharp
-
-in function parameters
-
----?code=code/match/pm_function.fsx&lang=fsharp
-
-branching using the match..with syntax
-
----?code=code/match/pm_match.fsx&lang=fsharp
 
 ---
 
