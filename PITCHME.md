@@ -1,9 +1,5 @@
 # Introduction to F# # 
 
---- 
-
-
-
 ---
 
 - What is F#?
@@ -20,12 +16,25 @@
 
 ## What is F#? #
 
-
+---
 
 ---?include=md/why-use.md
 
+---
 
-# Fizzbuzz
+---?include=md/pattern-matching.md
+
+---
+
+## Fizzbuzz
+
+Players take turns to count incrementally, replacing any number divisible by three with the word "Fizz", and any number divisible by five with the word "Buzz". Numbers divisible by both become "Fizz Buzz".
+
+---
+
+---?code=code/other/fizz.cs&lang=csharp
+
+---
 
 ---?code=code/other/fizz.fsx&lang=fsharp
 
