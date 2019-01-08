@@ -9,8 +9,8 @@
 @[1-4](Define hotel room type)
 @[6-8](Construct values of type)
 @[10-16](Function to print names)
-@[3,7,10-12](Number case match)
-@[4,8,10-12,13](Name case match)
+@[2,3,7,10-12](Number case match)
+@[2,4,8,10-11,13](Name case match)
 @[7-16](Function invoked with RoomName values)
 
 
