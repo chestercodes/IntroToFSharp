@@ -1,5 +1,19 @@
 ## Discriminated unions
 
+![Number room](assets/number.jpg)
+![Suite](assets/suite.jpg)
+
+
+---?code=code/du/hotel.fsx&lang=fs
+
+@[1-4](Define hotel room type)
+@[6-8](Construct values of type)
+@[10-16](Function to print names)
+@[3,12](Number case match)
+@[4,13](Name case match)
+@[7-16](Function invoked with RoomName values)
+
+
 ---?code=code/du/comms.cs&lang=cs
 
 @[1-9](Class to contain email address)

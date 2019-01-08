@@ -4,6 +4,7 @@
 
 - What is F#?
 - Why use F#?
+- Basic syntax
 - Useful language features
 - - Language defaults
 - - Pattern matching
@@ -15,11 +16,8 @@
 
 ---?include=md/what-is-fsharp.md
 
-
 ---?include=md/why-use.md
 
-
 ---?include=md/pattern-matching.md
-
 
 ---?include=md/discriminated-unions.md
