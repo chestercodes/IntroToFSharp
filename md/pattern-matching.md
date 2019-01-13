@@ -6,6 +6,11 @@ It is used for:
 
 ---?code=code/match/intro.fsx&lang=fsharp
 
+@[1-4]()
+@[4-9]()
+@[9-14]()
+
+
 ---
 
 ## Fizzbuzz
