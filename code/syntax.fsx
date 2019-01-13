@@ -12,8 +12,13 @@ let zeroToFive = [0;1] @ twoToFive   // @ concats two lists
 let square x = x * x          // Note that no parens are used.
 square 3                      // Now run the function. Again, no parens.
 
-let add x y = x + y           // don't use add (x,y)! 
-add 2 3                       // Now run the function.
+// can specify types and spread declaration over lines
+let add    // function name
+   (x:int) // parameter 1
+   (y:int) // parameter 2
+   : int   // return type
+  = 
+  x + y // function body 
 
 // to define a multiline function, just use indents. No semicolons needed.
 let evens list =
@@ -25,7 +30,7 @@ evens oneToFive               // Now run the function
 let evens2 list =
    list 
    |> List.filter (fun x -> x % 2 = 0) 
-   
+
 // Tuple types are pairs, triples, etc. Tuples use commas.
 let twoTuple = 1,2
 let threeTuple = "a",2,true

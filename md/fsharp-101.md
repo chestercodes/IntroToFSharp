@@ -12,7 +12,7 @@
 
 @[1-4](Assign values, infers types.)
 @[6-9](Lists)
-@[11-16](Function declaration)
-@[19-27](Nested and anonymous functions)
-@[29-31](Tuples)
-@[33-35](Printing to console)
+@[11-21](Function declaration)
+@[23-32](Nested and anonymous functions)
+@[34-36](Tuples)
+@[38-40](Printing to console)
