@@ -6,8 +6,6 @@
 - Avoid/restricts null
 - White space delimited
 
----
-
 ---?code=code/syntax.fsx&lang=fs
 
 @[1-4](Assign values, infers types.)
