@@ -4,29 +4,29 @@
 
 ---
 
-### Mature
+@quote[Mature]
 
 F# 1.x	- May 2005
-...
+
 F# 2.0 - April 2010
-...
+
 F# 4.5 - August 2018
 
 ---
 
-### Open source, cross-platform
+@quote[Open source, cross-platform]
 
 @quote[F# runs on Linux, Mac OS X, Android, iOS, Windows, GPUs, and browsers. It is free to use and is open source under an OSI-approved license.](fsharp.org)
 
 ---
 
-### Functional-first programming language
+@quote[Functional-first programming language]
 
-Defaults to functional style but can write programs that are:
+Can write:
 
 - Functional 
 - Imperative
 - Object oriented
 
-
+Programming styles, with a syntactic preference for functional.
 
