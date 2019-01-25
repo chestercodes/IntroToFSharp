@@ -10,16 +10,18 @@ Bank,Apr(%),WelcomeGift
 """
 
 type BankInfo = {Bank: int; Apr: float<percent/year>; Gift: float<GBP>}
-let parseFloat (s: string) = try Some (float (s.Trim())) with | _ -> None
-let parseInt (s: string) = try Some (int (s.Trim())) with | _ -> None
+let tryFloat (s: string) = try Some (float (s.Trim())) with | _ -> None
+let tryInt (s: string) = try Some (int (s.Trim())) with | _ -> None
 
 let csvLineToBankInfo (csvLine: string) =
     match csvLine.Split ',' with
-    | [|firstCol; secondCol; thirdCol|] -> 
-        match parseInt firstCol, parseFloat secondCol, parseFloat thirdCol with
+    | [|c1; c2; c3|] -> 
+        match tryInt c1, tryFloat c2, tryFloat c3 with
         | None, _, _  | _, None, _ | _, _, None -> None
         | Some bank, Some apr, Some gift -> 
-            Some { Bank = bank ; Apr = apr * 1.0<percent/year> ; Gift = gift * 1.0<GBP> }
+            Some { Bank = bank
+                   Apr = apr * 1.0<percent/year>
+                   Gift = gift * 1.0<GBP> }
     | _ -> None            
 
 let bankInfos = 
