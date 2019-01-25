@@ -20,9 +20,10 @@ Players take turns to count incrementally, replacing any number divisible by thr
 
 ---?code=code/match/fizz.cs&lang=csharp
 
-
 ---?code=code/match/fizz.fsx&lang=fsharp
 
 ---?code=code/match/active.fsx&lang=fsharp
 
----?code=code/match/partial.fsx&lang=fsharp
+---
+
+Real world example.

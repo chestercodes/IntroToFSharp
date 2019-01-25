@@ -15,6 +15,12 @@
 @[2,5,10,12-13,16](Reception case match)
 @[8-20](Function invoked with RoomName values)
 
+---
+
+Scenario: Want to record contact information.
+
+Need to store a contact's email, phone number or both.
+
 
 ---?code=code/du/comms.cs&lang=cs
 
