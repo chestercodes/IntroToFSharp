@@ -1,27 +1,36 @@
-[<Measure>] type percent
 [<Measure>] type GBP
 [<Measure>] type year
 
+[<Measure>] type percent
+let fromPercentage (percentage: float<percent>): float =
+    float percentage / 100.0
+let toPercentage (whole: float): float<percent> =
+    whole * 100.0<percent>
+
+
 let csv = """
-Bank,Apr(%),WelcomeGift
-1,3.1,200
-2,4.2,100
-3,5.3,0
+
+Bank, Apr(%), WelcomeGift
+1,    3.1,    200
+2,    4.2,    100
+3,    5.3,    0
+
 """
 
 type BankInfo = {Bank: int; Apr: float<percent/year>; Gift: float<GBP>}
-let tryFloat (s: string) = try Some (float (s.Trim())) with | _ -> None
-let tryInt (s: string) = try Some (int (s.Trim())) with | _ -> None
 
 let csvLineToBankInfo (csvLine: string) =
+    let tryFloat (s: string) = try Some (float (s.Trim())) with | _ -> None
+    let tryInt (s: string) = try Some (int (s.Trim())) with | _ -> None
+
     match csvLine.Split ',' with
     | [|c1; c2; c3|] -> 
         match tryInt c1, tryFloat c2, tryFloat c3 with
-        | None, _, _  | _, None, _ | _, _, None -> None
         | Some bank, Some apr, Some gift -> 
             Some { Bank = bank
                    Apr = apr * 1.0<percent/year>
                    Gift = gift * 1.0<GBP> }
+        | _ -> None            
     | _ -> None            
 
 let bankInfos = 
@@ -29,14 +38,11 @@ let bankInfos =
     |> Array.toList
     |> List.choose csvLineToBankInfo
 
-let fromPercentage (percentage: float<percent>): float =
-    float percentage / 100.0
-let toPercentage (whole: float): float<percent> =
-    whole * 100.0<percent>
 let compoundInterestOverYears (rate: float<percent/year>) (years: float<year>): float<percent> =
-    // 5% over 2 years is 10.25% increase- (1.05 ^ 2) * 100%
+    // 5% over 2 years is 10.25% increase- ((1.05 ^ 2) * 100)%
     let percentIncrease = 100.0<percent> + (rate * 1.0<year>)
     (fromPercentage percentIncrease) ** (float years) |> toPercentage
+
 let calculateAmountAfterYears initialBalance bankInfo years: float<GBP> =
     let interestMultiplier = fromPercentage (compoundInterestOverYears bankInfo.Apr years)
     (initialBalance + bankInfo.Gift) * interestMultiplier

@@ -22,11 +22,16 @@ F# 4.5 - August 2018
 
 @quote[Functional-first programming language]
 
-Can write:
+Can write Functional, Imperative, Object oriented programming styles, with a syntactic preference for functional.
 
-- Functional 
-- Imperative
-- Object oriented
+---
 
-Programming styles, with a syntactic preference for functional.
+#### F# and C# ####
+
+@quote[F# is to C#, what scala is to Java]
+
+Created at Microsoft Research by Don Syme et al.
+
+MR and F# have implemented or inspired C# features such as [Generics](https://blogs.msdn.microsoft.com/dsyme/2011/03/15/netc-generics-history-some-photos-from-feb-1999/), LINQ, Async
+
 
