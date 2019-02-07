@@ -25,14 +25,20 @@ namespace union
 
     public abstract class Contact
     {
-        public abstract T Match<T>(Func<union.Email, T> f, Func<union.Phone, T> g, Func<Tuple<union.Email, union.Phone>, T> h);
+        public abstract T Match<T>(
+            Func<union.Email, T> f, 
+            Func<union.Phone, T> g, 
+            Func<Tuple<union.Email, union.Phone>, T> h);
         private Contact() { } 
 
         public sealed class Email : Contact
         {
             public readonly union.Email Item;
             public Email(union.Email item) : base() { this.Item = item; }
-            public override T Match<T>(Func<union.Email, T> f, Func<union.Phone, T> g, Func<Tuple<union.Email, union.Phone>, T> h)
+            public override T Match<T>(
+                Func<union.Email, T> f, 
+                Func<union.Phone, T> g, 
+                Func<Tuple<union.Email, union.Phone>, T> h)
             {
                 return f(Item);
             }
@@ -42,7 +48,10 @@ namespace union
         {
             public readonly Phone Item;
             public JustPhone(Phone item) { this.Item = item; }
-            public override T Match<T>(Func<union.Email, T> f, Func<Phone, T> g, Func<Tuple<union.Email, Phone>, T> h)
+            public override T Match<T>(
+                Func<union.Email, T> f, 
+                Func<Phone, T> g,
+                Func<Tuple<union.Email, Phone>, T> h)
             {
                 return g(Item);
             }
@@ -51,8 +60,13 @@ namespace union
         public sealed class EmailAndPhone : Contact
         {
             public readonly Tuple<union.Email, Phone> Item;
-            public EmailAndPhone(Tuple<union.Email, Phone> item) { this.Item = item; }
-            public override T Match<T>(Func<union.Email, T> f, Func<Phone, T> g, Func<Tuple<union.Email, Phone>, T> h)
+            public EmailAndPhone(Tuple<union.Email, Phone> item) { 
+                this.Item = item; 
+            }
+            public override T Match<T>(
+                Func<union.Email, T> f, 
+                Func<Phone, T> g, 
+                Func<Tuple<union.Email, Phone>, T> h)
             {
                 return h(Item);
             }

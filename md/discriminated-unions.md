@@ -52,3 +52,15 @@ Need to store a contact's email, phone number or both.
 @[16-21](Creation of different named contacts)
 
 
+--- 
+
+Possible in C#?
+
+Can replicate behaviour, but not pretty...
+
+---?code=code/du/union/Program.cs&lang=cs
+
+@[26-32](Create Contact class with Match function and private constructor)
+@[34-45](Class for email case, careful with naming scopes.)
+@[47-58](Class for phone case)
+@[60-73](Class for email and phone case)
