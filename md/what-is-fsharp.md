@@ -22,7 +22,7 @@ F# 4.5 - August 2018
 
 @quote[Functional-first programming language]
 
-Can write Functional, Imperative, Object oriented programming styles, with a syntactic preference for functional.
+Can write Functional, Imperative, Object oriented programming styles, with a preference for functional.
 
 ---
 

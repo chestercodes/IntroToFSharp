@@ -26,8 +26,8 @@
 - Units of measure
 - Type providers
 
----?include=md/pattern-matching.md
-
 ---?include=md/records.md
+
+---?include=md/pattern-matching.md
 
 ---?include=md/discriminated-unions.md
