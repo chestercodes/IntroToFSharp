@@ -10,4 +10,4 @@ let fizzbuzz n =
   | DividesBy15 -> "FizzBuzz"
   | DividesBy3  -> "Fizz"
   | DividesBy5  -> "Buzz"
-  | x           -> x.ToString()
+  | Other       -> n.ToString()

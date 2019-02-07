@@ -17,7 +17,15 @@
 
 ---
 
-Scenario: Want to record contact information.
+### Scenario
+
+Want to add layer of domain typing over primitives
+
+---
+
+### Scenario
+
+Want to record contact information.
 
 Need to store a contact's email, phone number or both.
 

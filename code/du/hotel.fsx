@@ -5,9 +5,9 @@ type RoomName =         // type TypeName =
     | Reception         //     | case3
 
 // construct values
-let room5 = Number 5                 // let typeVal1 = case1 value1
+let room5 =      RoomName.Number 5   // let typeVal1 = case1 value1
 let grandSuite = Name "Grand Suite"  // let typeVal2 = case2 value2
-let reception = Reception            // let typeVal3 = case3
+let reception =  Reception           // let typeVal3 = case3
 
 let printRoomName roomName =
     match roomName with
