@@ -24,7 +24,8 @@ Need to store info about a person (name, age) and their address (line 1,2 postco
 
 @[14-25](Class to store a person's address)
 @[1-12](Class to store a person's info)
-@[1,8,10](Structural comparison requires extras)
+@[1,8-10](Structural comparison requires extras)
+@[10](Dont forget the .Equals! )
 
 @[31-40](Assign some johns and compare)
 
