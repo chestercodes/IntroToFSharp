@@ -20,12 +20,14 @@
 
 ### Language features
 
-- Pattern matching
 - Record types
+- Pattern matching
 - Discriminated unions
 - Units of measure
 - Type providers
 
 ---?include=md/pattern-matching.md
+
+---?include=md/records.md
 
 ---?include=md/discriminated-unions.md

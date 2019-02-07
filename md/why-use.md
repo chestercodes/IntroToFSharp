@@ -1,4 +1,4 @@
-## Why use F#? #
+### Why use F#? #
 
 @quote[F# was so easy to pick up we went from complete novices to having our code in production in less than a week.]
 
