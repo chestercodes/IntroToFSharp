@@ -35,3 +35,7 @@
 ---?include=md/units-of-measure.md
 
 ---?include=md/type-providers.md
+
+---?include=md/comparison-to-csharp.md
+
+---?include=md/other-cool-stuff.md
