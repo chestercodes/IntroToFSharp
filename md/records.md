@@ -22,13 +22,13 @@ Need to store info about a person (name, age) and their address (line 1,2 postco
 
 ---?code=code/record/john.cs&lang=cs
 
-@[22-41](Class to store a person's address)
-@[1-20](Class to store a person's info)
-@[1,14,18](Structural comparison requires extras)
+@[14-25](Class to store a person's address)
+@[1-12](Class to store a person's info)
+@[1,8,10](Structural comparison requires extras)
 
-@[47-56](Assign some johns and compare)
+@[31-40](Assign some johns and compare)
 
-@[58-64](Mutating requires lots of boilerplate)
+@[42-48](Mutating requires lots of boilerplate)
 
 ---?code=code/record/john.fsx&lang=fs
 
