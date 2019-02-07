@@ -31,3 +31,7 @@
 ---?include=md/pattern-matching.md
 
 ---?include=md/discriminated-unions.md
+
+---?include=md/units-of-measure.md
+
+---?include=md/type-providers.md
