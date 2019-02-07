@@ -1,6 +1,21 @@
 ## Records
 
-Scenario: Want to model and compare data in an immutable way.
+Records represent simple aggregates of named values, optionally with members.
+
+``` fs
+[ attributes ]
+type [accessibility-modifier] typename =
+    { [ mutable ] label1 : type1;
+      [ mutable ] label2 : type2;
+      ... }
+    [ member-list ]
+```
+
+---
+
+### Scenario
+
+Want to model and compare data in an immutable way.
 
 Need to store info about a person (name, age) and their address (line 1,2 postcode).
 
