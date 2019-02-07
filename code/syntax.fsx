@@ -39,8 +39,7 @@ let threeTuple = "a",2,true
 printfn "Printing an int %i, a float %f, a bool %b" 1 2.0 true
 printfn "A string %s, and something generic %A" "hello" [1;2;3;4]
 
-// immutable by default
-// mutability requires mutable keyword
+// immutable by default, mutability requires mutable keyword
 let mutable counter = 0
 // and special assignment operator
 counter <- counter + 1
