@@ -31,15 +31,15 @@ Usage and conversion of degrees and radians
 ---?code=code/uom/bank.fsx&lang=fs
 
 @[1-10](Define units of measure)
-@[13-22](Bank info and record)
-@[24-36](Function to parse csv line or None)
-@[28-29](Matches to array with 3 parts)
-@[25-26,30-31](Matches to successful float and int parsing)
-@[22,32-34](Bank info record)
-@[38-41](Parse csv to bank infos)
-@[43-49](Function to compound interest, takes rate and years as args)
-@[51-54](Function to calculate amount after years)
-@[56-67](Calculate amounts for bank infos)
+@[13-23](Bank info and record)
+@[25-37](Function to parse csv line or None)
+@[29-30](Matches to array with 3 parts)
+@[26-27,31-32](Matches to successful float and int parsing)
+@[22-23,33-35](Bank info record)
+@[39-42](Parse csv to bank infos)
+@[44-50](Function to compound interest, takes rate and years as args)
+@[52-55](Function to calculate amount after years)
+@[57-68](Calculate amounts for bank infos)
 
 
 ---
