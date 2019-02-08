@@ -4,6 +4,7 @@
 
 ![Suite](assets/suite.jpg)
 
+@quote[(Python) Unit tests are a poor man's compiler]
 
 ---?code=code/du/hotel.fsx&lang=fs
 
