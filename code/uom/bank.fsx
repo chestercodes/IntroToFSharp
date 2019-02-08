@@ -2,8 +2,10 @@
 [<Measure>] type year
 
 [<Measure>] type percent
+
 let fromPercentage (percentage: float<percent>): float =
     float percentage / 100.0
+
 let toPercentage (whole: float): float<percent> =
     whole * 100.0<percent>
 
@@ -38,20 +40,25 @@ let bankInfos =
     |> Array.toList
     |> List.choose csvLineToBankInfo
 
-let compoundInterestOverYears (rate: float<percent/year>) (years: float<year>): float<percent> =
+let compoundInterest
+    (rate: float<percent/year>)
+    (years: float<year>) : float<percent> =
     // 5% over 2 years is 10.25% increase- ((1.05 ^ 2) * 100)%
     let percentIncrease = 100.0<percent> + (rate * 1.0<year>)
-    (fromPercentage percentIncrease) ** (float years) |> toPercentage
+    (fromPercentage percentIncrease) ** (float years) 
+    |> toPercentage
 
 let calculateAmountAfterYears initialBalance bankInfo years: float<GBP> =
-    let interestMultiplier = fromPercentage (compoundInterestOverYears bankInfo.Apr years)
+    let compoundedInterest = compoundInterest bankInfo.Apr years
+    let interestMultiplier = fromPercentage compoundedInterest
     (initialBalance + bankInfo.Gift) * interestMultiplier
 
 let initialBalance = 1000.0<GBP>
 let numberOfYears = 10.0<year>
 let amountsAfter10Years = 
     bankInfos
-    |> List.map (fun x -> x, calculateAmountAfterYears initialBalance x numberOfYears)
+    |> List.map (fun x -> 
+        x, calculateAmountAfterYears initialBalance x numberOfYears)
     |> List.sortBy snd
 
 for am in amountsAfter10Years do
