@@ -9,7 +9,7 @@ let pi = System.Math.PI
 // float<radian/degree>
 let degToRad = (2.0 * pi / 360.0) * 1.0<radian/degree>
 
-let twoRadsPlus100Degrees = 
-    twoRad + oneHundredDeg * degToRad // float<radian>
+ // float<radian>
+let twoRadsPlus100Degrees = twoRad + oneHundredDeg * degToRad
 
 let doesntCompile = twoRad + oneHundredDeg
