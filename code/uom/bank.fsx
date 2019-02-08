@@ -48,7 +48,7 @@ let compoundInterest
     (fromPercentage percentIncrease) ** (float years) 
     |> toPercentage
 
-let calculateAmountAfterYears initialBalance bankInfo years: float<GBP> =
+let calculateAmount initialBalance bankInfo years: float<GBP> =
     let compoundedInterest = compoundInterest bankInfo.Apr years
     let interestMultiplier = fromPercentage compoundedInterest
     (initialBalance + bankInfo.Gift) * interestMultiplier
@@ -58,7 +58,7 @@ let numberOfYears = 10.0<year>
 let amountsAfter10Years = 
     bankInfos
     |> List.map (fun x -> 
-        x, calculateAmountAfterYears initialBalance x numberOfYears)
+        x, calculateAmount initialBalance x numberOfYears)
     |> List.sortBy snd
 
 for am in amountsAfter10Years do

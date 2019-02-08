@@ -39,6 +39,7 @@ Usage and conversion of degrees and radians
 @[38-41](Parse csv to bank infos)
 @[43-49](Function to compound interest, takes rate and years as args)
 @[51-54](Function to calculate amount after years)
+@[56-67](Calculate amounts for bank infos)
 
 
 ---
