@@ -5,6 +5,10 @@
 
 ---
 
+@quote[NASA's $125 million Mars Climate Orbiter project ended in failure when the orbiter dipped 90 km closer to Mars than originally intended, causing it to tear apart and disintegrate spectacularly in the Mars atmosphere. ... the root cause of the problem to a conversion error ... NASA passed data to the systems in metric units, but the software expected data in Imperial units.]
+
+---
+
 @quote[Units-of-measure are to science what types are to programming.]
 
 --- 
@@ -20,9 +24,9 @@ Usage and conversion of degrees and radians
 
 @[1-2](Define units of measure, radian and degree)
 @[1-5](Assign values of different measures)
-@[7-10](Conversion factor to convert between measures in typesafe way.)
-@[4-13](Can add twoRad to oneHundredDeg with conversion)
-@[15](Trying to add values doesn't compile )
+@[7](Conversion factor to convert between measures.)
+@[4-10](Can add twoRad to oneHundredDeg with conversion)
+@[12](Trying to add values doesn't compile )
 
 ---
 
