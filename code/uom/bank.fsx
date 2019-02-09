@@ -19,8 +19,8 @@ Bank, Apr(%), WelcomeGift
 
 """
 
-type BankInfo = {   Bank: int; Apr: float<percent/year>
-                    Gift: float<GBP> }
+type BankInfo = { Bank: int; Gift: float<GBP>
+                  Apr: float<percent/year> }
 
 let csvLineToBankInfo (csvLine: string) =
     let tryFloat (s: string) = try Some (float (s.Trim())) with | _ -> None

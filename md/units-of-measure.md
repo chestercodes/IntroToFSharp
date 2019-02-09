@@ -41,6 +41,3 @@ Usage and conversion of degrees and radians
 @[52-55](Function to calculate amount after years)
 @[57-68](Calculate amounts for bank infos)
 
-
----
-
