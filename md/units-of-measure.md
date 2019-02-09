@@ -5,11 +5,11 @@
 
 ---
 
-@quote[NASA's $125 million Mars Climate Orbiter project ended in failure when the orbiter dipped 90 km closer to Mars than originally intended, causing it to tear apart and disintegrate spectacularly in the Mars atmosphere. ... the root cause of the problem to a conversion error ... NASA passed data to the systems in metric units, but the software expected data in Imperial units.]
+@quote[Units-of-measure are to science what types are to programming.]
 
 ---
 
-@quote[Units-of-measure are to science what types are to programming.]
+@quote[NASA's $125 million Mars Climate Orbiter project ended in failure when the orbiter dipped 90 km closer to Mars than originally intended, causing it to tear apart and disintegrate spectacularly in the Mars atmosphere. ... the root cause of the problem to a conversion error ... NASA passed data to the systems in metric units, but the software expected data in Imperial units.]
 
 --- 
 
