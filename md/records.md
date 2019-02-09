@@ -39,5 +39,3 @@ Need to store info about a person (name, age) and their address (line 1,2 postco
 @[7-15](Assign some johns and compare, no extras needed)
 
 @[17-18](Mutating uses with keyword to specify difference and copies rest)
-
----

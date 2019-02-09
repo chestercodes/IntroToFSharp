@@ -1,4 +1,4 @@
-## Pattern matching
+### Pattern matching
 
 Pattern matching is ubiquitous in F#. 
 
@@ -13,9 +13,13 @@ It is used for:
 
 ---
 
-## Fizzbuzz
+### Fizzbuzz
 
-Players take turns to count incrementally, replacing any number divisible by three with the word "Fizz", and any number divisible by five with the word "Buzz". Numbers divisible by both become "Fizz Buzz".
+Players take turns to count incrementally, replacing
+
+- any number divisible by three with the word "Fizz"
+- any number divisible by five with the word "Buzz"
+- numbers divisible by both become "Fizz Buzz".
 
 
 ---?code=code/match/fizz.cs&lang=csharp
