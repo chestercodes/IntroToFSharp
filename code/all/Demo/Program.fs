@@ -15,7 +15,6 @@
 
 
 
-
 // requires R version less than 3.5 - https://www.stats.bris.ac.uk/R/bin/windows/base/old/3.4.4/
 // seems to be bug in R.NET
 

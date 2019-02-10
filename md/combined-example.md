@@ -13,18 +13,18 @@ There are different bank accounts, with different APR rates. Some of the account
 
 Want to calculate the best deal...
 
----?code=code/uom/bank.fsx&lang=fs
+---?code=code/all/Demo/Program.fs&lang=fs
 
-@[1-10](Define units of measure)
-@[13-23](Bank info and record)
-@[25-37](Function to parse csv line or None)
-@[29-30,37](Matches to array with 3 parts)
-@[26-27,31-32,36](Matches to successful float and int parsing)
-@[22-23,33-35](Bank info record)
-@[39-42](Parse csv to bank infos)
-@[44-50](Function to compound interest, takes rate and years as args)
-@[52-55](Function to calculate amount after years)
-@[57-68](Calculate amounts for bank infos)
+@[31-40](Define units of measure)
+@[43-53](Bank info and record)
+@[55-67](Function to parse csv line or None)
+@[59-60,67](Matches to array with 3 parts)
+@[56-57,61-62,66](Matches to successful float and int parsing)
+@[52-53,63-65](Bank info record)
+@[85-88](Parse csv to bank infos)
+@[69-75](Function to compound interest, takes rate and years as args)
+@[77-80](Function to calculate amount after years)
+@[90-101](Calculate amounts for bank infos)
 
 ---
 
