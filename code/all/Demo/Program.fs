@@ -122,7 +122,7 @@ let main argv =
     let colours = ["red" ; "blue" ; "green"]
     let yLim = [float initialBalance; float maxY]
     let xLim = [0.0 ; (List.max xValues)]
-    
+
     let dir = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location)
     let path = Path.Combine(dir.Parent.Parent.Parent.Parent.Parent.Parent.FullName, "assets", @"banks.png")
     

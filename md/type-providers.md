@@ -17,4 +17,5 @@
 @[105-115](Calculate amounts for banks)
 @[117-124](Calculate graph limits)
 @[131-138](Create blank graph)
-@[140-159](Add line for each bank)
+@[140-148](Add line for each bank)
+@[153-161](Add legends and title)
