@@ -107,7 +107,9 @@ let main argv =
     let overYears = 
         bankInfos
         |> List.map (fun bi ->
-            let yValues = xValues |> List.map (fun x -> calculateAmount initialBalance bi (x * 1.0<year>))
+            let yValues = 
+                xValues 
+                |> List.map (fun x -> calculateAmount initialBalance bi (x * 1.0<year>))
             bi, yValues
         )
 
@@ -117,6 +119,7 @@ let main argv =
     
     let dir = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location)
     let path = Path.Combine(dir.Parent.Parent.Parent.Parent.Parent.Parent.FullName, "assets", @"banks.png")
+    
     R.png(filename=path, height=500, width=500, bg="white") |> ignore
     
     namedParams [   
