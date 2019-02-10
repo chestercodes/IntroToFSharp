@@ -114,9 +114,14 @@ let main argv =
             bi, yValues
         )
 
-    let maxY = overYears |> List.map snd |> List.collect id |> List.max
+    let maxY = overYears 
+               |> List.map snd 
+               |> List.collect id 
+               |> List.max
+
     let colours = ["red" ; "blue" ; "green"]
-    let yLim = box [float initialBalance; float maxY]
+    let yLim = [float initialBalance; float maxY]
+    let xLim = [0.0 ; (List.max xValues)]
     
     let dir = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location)
     let path = Path.Combine(dir.Parent.Parent.Parent.Parent.Parent.Parent.FullName, "assets", @"banks.png")
@@ -125,8 +130,8 @@ let main argv =
     
     namedParams [   
         "x", box [1]
-        "ylim", yLim 
-        "xlim", box [0.0 ; (List.max xValues)] 
+        "ylim", box yLim 
+        "xlim", box xLim 
         "xlab", box ""
         "ylab", box ""
         ]
@@ -135,13 +140,16 @@ let main argv =
     for data in overYears do
         let bankInfo = fst data
         let colour = colours.[bankInfo.Bank - 1]
+        
         namedParams [
             "x", box xValues;
             "y", box (snd data);
             "col", box colour ]
         |> R.lines  |> ignore
 
-        let text = sprintf "Bank %i -> %.1f%% , £%.0f" bankInfo.Bank bankInfo.Apr bankInfo.Gift
+        let text = sprintf "Bank %i -> %.1f%% , £%.0f" 
+                    bankInfo.Bank bankInfo.Apr bankInfo.Gift
+        
         namedParams [
             "x", box 6
             "y", box (1300 - 80 * bankInfo.Bank)
