@@ -27,6 +27,7 @@ Players take turns to count incrementally, replacing
 ---?code=code/match/fizz.cs&lang=csharp
 
 ---?code=code/match/fizz.fsx&lang=fsharp
+
 @[1](Define function fizzbuzz that takes arg n. int type inferred from body)
 @[2-6](match expression for function body)
 @[2,8](matches input n with)
@@ -35,6 +36,10 @@ Players take turns to count incrementally, replacing
 @[6](everything else is caught by wildcard match and returns ToString())
 
 ---?code=code/match/active.fsx&lang=fsharp
+
+@[1-13](Can use F# Active Patterns to seperate classification from outcome)
+@[1-6](Active pattern shows classifies input into specified states)
+@[8-13](Matching on active pattern gives outcome )
 
 ---
 

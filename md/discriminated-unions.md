@@ -8,6 +8,8 @@
 
 @quote[Unit tests are a poor man's compiler]
 
+@quote[Never put off until run time what can be done at compile time.]
+
 ---?code=code/du/hotel.fsx&lang=fs
 
 @[1-5](Define hotel room type)
