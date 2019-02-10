@@ -3,14 +3,8 @@
 
 ---
 
-@quote[Never put off until run time what can be done at compile time.]
-
----
-
-@quote[The world is information rich.](https://www.slideshare.net/dsyme/making-magic-with-f-type-providers)
-
-@quote[Our languages are information sparse](https://www.slideshare.net/dsyme/making-magic-with-f-type-providers)
-
+@quote[The world is information rich.]
+@quote[Our languages are information sparse]
 @quote[We need to bring information into the language... At internet-scale, strongly tooled, strongly typed](https://www.slideshare.net/dsyme/making-magic-with-f-type-providers)
 
 

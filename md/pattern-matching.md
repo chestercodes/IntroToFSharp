@@ -1,5 +1,11 @@
 ### Pattern matching
 
+---
+
+@quote[Never put off until run time what can be done at compile time.]
+
+---
+
 Pattern matching is ubiquitous in F#. 
 
 It is used for:
