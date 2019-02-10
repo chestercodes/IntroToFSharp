@@ -124,7 +124,7 @@ let main argv =
     let xLim = [0.0 ; (List.max xValues)]
 
     let dir = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location)
-    let path = Path.Combine(dir.Parent.Parent.Parent.Parent.Parent.Parent.FullName, "assets", @"banks.png")
+    let path = Path.Combine(dir.Parent.Parent.Parent.Parent.Parent.Parent.FullName, "assets", "img", @"banks.png")
     
     R.png(filename=path, height=500, width=500, bg="white") |> ignore
     

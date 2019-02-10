@@ -7,6 +7,15 @@
 
 ---
 
+@quote[The world is information rich.](https://www.slideshare.net/dsyme/making-magic-with-f-type-providers)
+
+@quote[Our languages are information sparse](https://www.slideshare.net/dsyme/making-magic-with-f-type-providers)
+
+@quote[We need to bring information into the language... At internet-scale, strongly tooled, strongly typed](https://www.slideshare.net/dsyme/making-magic-with-f-type-providers)
+
+
+---
+
 @quote[An F# type provider is a component that provides types, properties, and methods for use in your program]
 
 ---

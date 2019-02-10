@@ -1,7 +1,7 @@
 
 ## Units of measure
 
-![MarsRover](assets/marsRover.jpg)
+![MarsRover](assets/img/marsRover.jpg)
 
 ---
 
@@ -17,7 +17,7 @@
 
 Usage and conversion of degrees and radians
 
-![Radians](assets/rads.png)
+![Radians](assets/img/rads.png)
 
 
 ---?code=code/uom/rad.fsx&lang=fs
