@@ -14,6 +14,18 @@
 
 ---
 
+### Type Provider Example
+
+Let's make our first F# program!
+
+---?code=code/ps/CreateDemoProject.ps1&lang=ps
+
+@[1-8](Create a new dotnet console project with -lang parameter F#)
+@[14-17](Install type providers from nuget packages)
+
+
+---
+
 ### RProvider
 
 ---?code=code/all/Demo/Program.fs&lang=fs
