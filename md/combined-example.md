@@ -3,6 +3,8 @@
 
 Combine Records, Pattern matching, Discriminated unions into program.
 
+---
+
 ### Scenario
 
 You have £1000 to put into a bank account to get the most at the end of 10 years. 
