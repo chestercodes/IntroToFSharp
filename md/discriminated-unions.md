@@ -1,8 +1,8 @@
-![Number room](assets/number.jpg)
+![Number room](assets/img/number.jpg)
 
 ## Discriminated unions
 
-![Suite](assets/suite.jpg)
+![Suite](assets/img/suite.jpg)
 
 ---
 

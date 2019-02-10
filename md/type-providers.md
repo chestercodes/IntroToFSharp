@@ -23,5 +23,5 @@
 
 ---
 
-![BanksGraph](assets/banks.png) 
+![BanksGraph](assets/img/banks.png) 
 
