@@ -17,3 +17,26 @@ dotnet add package SQLProvider --version 1.1.58
 dotnet restore
 
 cd $workDir
+
+
+[System.IO.File]::AppendAllText("$tempDir/$demoDir/Program.fs", "
+
+open FSharp.Text.RegexProvider
+
+let [<Literal>] pattern = @""(?<AreaCode>^\d{5})\s(?<Rest>\d{6}$)""  
+
+let printPhoneNumberInfo input =
+    // print either of these depending on match
+    printfn ""Area code is %s, rest of number is %s"" ""TODO"" ""TODO""
+    printfn ""Input '%s' is not phone number"" input
+
+[<EntryPoint>]
+let main argv =
+    
+    printPhoneNumberInfo ""01234 567890""
+    printPhoneNumberInfo ""sausage""
+    
+    System.Console.ReadKey() |> ignore
+    0
+
+")
