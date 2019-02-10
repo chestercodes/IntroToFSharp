@@ -23,7 +23,7 @@
 // #I "./packages/RProvider.1.1.21"
 // #load "RProvider.fsx"
 
-open System
+open System.IO
 open RDotNet
 open RProvider
 open RProvider.graphics
@@ -67,11 +67,6 @@ let csvLineToBankInfo (csvLine: string) =
         | _ -> None            
     | _ -> None            
 
-let bankInfos = 
-    csv.Split('\n')
-    |> Array.toList
-    |> List.choose csvLineToBankInfo
-
 let compoundInterest
     (rate: float<percent/year>)
     (years: float<year>) : float<percent> =
@@ -88,6 +83,11 @@ let calculateAmount initialBalance bankInfo years: float<GBP> =
 [<EntryPoint>]
 let main argv = 
     
+    let bankInfos = 
+        csv.Split('\n')
+        |> Array.toList
+        |> List.choose csvLineToBankInfo
+
     let initialBalance = 1000.0<GBP>
     let numberOfYears = 10.0<year>
     let amountsAfter10Years = 
@@ -101,6 +101,8 @@ let main argv =
         let amount = (snd am)
         printfn "Bank %i amount %f " bank amount
 
+
+
     let xValues = [0..10] |> List.map float
     
     let overYears = 
@@ -113,6 +115,10 @@ let main argv =
     let maxY = overYears |> List.map snd |> List.collect id |> List.max
     let colours = ["red" ; "blue" ; "green"]
     let yLim = box [float initialBalance; float maxY]
+    
+    let dir = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location)
+    let path = Path.Combine(dir.Parent.Parent.Parent.Parent.Parent.Parent.FullName, "assets", @"banks.png")
+    R.png(filename=path, height=500, width=500, bg="white") |> ignore
     
     namedParams [   
         "x", box [1]
@@ -142,5 +148,8 @@ let main argv =
         |> R.legend |> ignore
 
     R.title(main="Banks", xlab="Years", ylab="Amount") |> ignore
+
+    R.dev_off () |> ignore
     
     0 // return an integer exit code
+    
