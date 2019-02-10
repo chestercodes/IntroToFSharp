@@ -34,6 +34,8 @@
 
 ---?include=md/units-of-measure.md
 
+---?include=md/combined-example.md
+
 ---?include=md/type-providers.md
 
 ---?include=md/comparison-to-csharp.md
