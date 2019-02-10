@@ -109,7 +109,8 @@ let main argv =
         |> List.map (fun bi ->
             let yValues = 
                 xValues 
-                |> List.map (fun x -> calculateAmount initialBalance bi (x * 1.0<year>))
+                |> List.map (fun x -> 
+                    calculateAmount initialBalance bi (x * 1.0<year>))
             bi, yValues
         )
 
