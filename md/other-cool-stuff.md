@@ -52,6 +52,8 @@ F# can be used as a server and client side language, with code sharing across st
 
 [https://safe-stack.github.io/docs/component-elmish/](https://safe-stack.github.io/docs/component-elmish/)
 
+---
+
 ### MVU Pattern - Elmish.React
 
 ![MVU](assets/img/mvuElmish.png)
