@@ -45,4 +45,14 @@ F# can be used as a server and client side language, with code sharing across st
 
 ---
 
+### MVU
+
+![MVU](assets/img/mvu.png)
+
+[https://compositional-it.com/blog/2017/09-21-safe-elmish/index.html](https://compositional-it.com/blog/2017/09-21-safe-elmish/index.html)
+
+
+---
+
+### Fabulous
 
