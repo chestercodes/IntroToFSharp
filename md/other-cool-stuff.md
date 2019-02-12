@@ -68,5 +68,14 @@ The approach to app development is similar to Redux and Flow but targets Xamarin
 
 ---
 
+### MVU Pattern - Fabulous
+
 ![MVU](assets/img/mvuFabulous.png)
 
+--- 
+
+### F#ull stack apps
+
+Can write client side apps that share F# domain logic.
+
+Differences between browser and mobile clients are the `view` modules.  
