@@ -8,11 +8,11 @@ namespace cs
         {
             var myAddress = new Address("1 house", "2 lane", "BS2 2BS");
             
-
-            Contact thing = null;
             var justEmail = Contact.NewJustEmail(Email.NewEmail("a@b.com"));
-            var justEmailDecon = (Contact.JustEmail)justEmail;
-            justEmailDecon.Item
+
+            System.Console.WriteLine(Utils.contactInfoToString(justEmail));
+
+            System.Console.ReadKey();
         }
     }
 }
