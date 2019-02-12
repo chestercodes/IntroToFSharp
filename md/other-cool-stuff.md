@@ -62,10 +62,11 @@ F# can be used as a server and client side language, with code sharing across st
 
 ### Fabulous
 
-A variation of elmish, an Elm architecture implemented in F#, to build Xamarin.Forms applications for iOS, Android, Mac and more. The approach to app development is similar to Redux and Flow but targets Xamarin and Xamarin.Forms
+A variation of elmish to build Xamarin.Forms applications for iOS, Android, Mac and more. 
+
+The approach to app development is similar to Redux and Flow but targets Xamarin and Xamarin.Forms
 
 ---
 
 ![MVU](assets/img/mvuFabulous.png)
 
----

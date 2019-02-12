@@ -38,6 +38,7 @@
 
 ---?include=md/type-providers.md
 
+---?include=md/other-cool-stuff.md
+
 ---?include=md/comparison-to-csharp.md
 
----?include=md/other-cool-stuff.md
