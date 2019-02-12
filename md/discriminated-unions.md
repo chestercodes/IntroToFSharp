@@ -53,7 +53,8 @@ Need to store a contact's email, phone number or both.
 @[14](EmailAndPhone is a tuple of Email and Phone)
 @[11-14](No compilable way to have neither phone or email)
 @[16-21](Creation of different named contacts)
-
+@[23-24](Functions to unwrap the single case types)
+@[26-33](Can pattern match over the options for Contact)
 
 --- 
 
