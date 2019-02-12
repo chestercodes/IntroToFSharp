@@ -37,7 +37,10 @@ F# can be used as a server and client side language, with code sharing across st
 
 ---
 
+### SAFE stack - Client side 
+
 ![FableJs](assets/img/SAFE.png)
+
 [https://safe-stack.github.io/docs/component-elmish/](https://safe-stack.github.io/docs/component-elmish/)
 
 ---
