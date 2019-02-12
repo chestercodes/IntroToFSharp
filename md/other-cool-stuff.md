@@ -78,4 +78,4 @@ The approach to app development is similar to Redux and Flow but targets Xamarin
 
 Can write client side apps that share F# domain logic.
 
-Differences between browser and mobile clients are the `view` modules.  
+Differences between browser and mobile clients are the `view` modules written in `Elmish.React` or `Fabulous`.

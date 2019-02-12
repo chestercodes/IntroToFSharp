@@ -1,2 +1,2 @@
-### Compared to C# #
+### Differences with C# #
 
