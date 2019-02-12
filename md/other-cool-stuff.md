@@ -20,16 +20,29 @@ Cool talk by Tomas Petricek
 
 ### Fable
 
-Inspired by Javascript generator Babel
-
-Converts F# code:
+Inspired by Javascript transpiler Babel. Converts F# code:
 
 ![FableFs](assets/img/fableFs.PNG)
 
-into Javascript like: 
+into Javascript: 
 
 ![FableJs](assets/img/fableJs.PNG)
+
+F# can be used as a server and client side language, with code sharing across stack.
 
 ---
 
 ### SAFE Stack
+
+- S -> Saturn - ASP.NET Core based framework
+- A -> Azure/AWS
+- F -> Fable
+- E -> Elmish(.React) - MVU abstraction over react
+
+---
+
+![FableJs](assets/img/SAFE.png)
+
+---
+
+
