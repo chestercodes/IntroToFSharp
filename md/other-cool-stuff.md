@@ -24,11 +24,11 @@ Inspired by Javascript generator Babel
 
 Converts F# code:
 
-![FableFs]("assets/img/fableFs.PNG")
+![FableFs](assets/img/fableFs.PNG)
 
 into Javascript like: 
 
-![FableJs]("assets/img/fableJs.PNG")
+![FableJs](assets/img/fableJs.PNG)
 
 ---
 
