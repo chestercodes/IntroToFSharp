@@ -20,13 +20,9 @@ Cool talk by Tomas Petricek
 
 ### Fable
 
-Inspired by Javascript transpiler Babel. Converts F# code:
+Inspired by Javascript transpiler Babel. Converts F# code into Javascript:
 
-![FableFs](assets/img/fableFs.PNG)
-
-into Javascript: 
-
-![FableJs](assets/img/fableJs.PNG)
+![FableFs](assets/img/fable.png)
 
 F# can be used as a server and client side language, with code sharing across stack.
 
@@ -42,6 +38,7 @@ F# can be used as a server and client side language, with code sharing across st
 ---
 
 ![FableJs](assets/img/SAFE.png)
+[https://safe-stack.github.io/docs/component-elmish/](https://safe-stack.github.io/docs/component-elmish/)
 
 ---
 
