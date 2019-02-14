@@ -62,3 +62,9 @@ Need to store a contact's email, phone number or both.
 
 ![Contact](assets/img/contact.png)
 
+---
+
+![ContactFs](assets/img/contactFs.png)
+
+![ContactCs](assets/img/contactCs.png)
+

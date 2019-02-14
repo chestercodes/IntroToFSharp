@@ -7,10 +7,14 @@ namespace cs
         static void Main(string[] args)
         {
             var myAddress = new Address("1 house", "2 lane", "BS2 2BS");
-            
-            var justEmail = Contact.NewJustEmail(Email.NewEmail("a@b.com"));
 
-            System.Console.WriteLine(Utils.contactInfoToString(justEmail));
+            var email = Email.NewEmail("a@b.com");
+
+            var justEmail = Contact.NewJustEmail(email);
+
+            var contactInfoAsString = Utils.contactInfoToString(justEmail);
+
+            System.Console.WriteLine(contactInfoAsString);
 
             System.Console.ReadKey();
         }
