@@ -44,9 +44,6 @@ Need to store info about a person (name, age) and their address (line 1,2 postco
 
 ### Records from C# #
 
-![AddressRecord](assets/img/fsAddressRecord.png)
+![AddressRecord](assets/img/address.png)
 
-![AddressDecomp](assets/img/fsAddress.png)
-
-![AddressNew](assets/img/fsAddressNew.png)
 
