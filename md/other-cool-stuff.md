@@ -13,8 +13,7 @@ F# syntax is human readable and can lead to intuitive internal DSLs
 
 FParsec can be used to create external DSLs
 
-Cool talk by Tomas Petricek
-[https://www.youtube.com/watch?v=Bnm71YEt_lI](https://www.youtube.com/watch?v=Bnm71YEt_lI)
+[Talk on creating external 'excel' DSL](https://www.youtube.com/watch?v=Bnm71YEt_lI)
 
 ---
 
