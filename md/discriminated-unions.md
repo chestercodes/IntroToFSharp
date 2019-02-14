@@ -64,7 +64,6 @@ Need to store a contact's email, phone number or both.
 
 ---
 
-![ContactFs](assets/img/contactFs.png)
+![ContactFs](assets/img/contactFsToCs.png)
 
-![ContactCs](assets/img/contactCs.png)
 
