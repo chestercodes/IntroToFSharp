@@ -30,4 +30,6 @@ let printOutContactInfo contact =
     | JustPhone phone -> 
         printfn "Phone is %s" (phoneValue phone)
     | EmailAndPhone (email, phone) -> 
-        printfn "Email is %s, Phone is %s" (emailValue email) (phoneValue phone)
+        printfn "Email is %s, Phone is %s" 
+            (emailValue email) 
+            (phoneValue phone)
