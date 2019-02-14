@@ -6,7 +6,6 @@
 - Why use F#?
 - F# 101
 - Language features
-- Comparison to C#
 - Other cool stuff
 
 
