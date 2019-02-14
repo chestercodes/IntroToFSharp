@@ -16,12 +16,11 @@ It is used for:
 @[4-9]()
 @[9-14]()
 
-
 ---
 
-### Fizzbuzz
+### Scenario
 
-Players take turns to count incrementally, replacing
+Fizzbuzz - Players take turns to count incrementally, replacing
 
 - any number divisible by three with the word "Fizz"
 - any number divisible by five with the word "Buzz"
