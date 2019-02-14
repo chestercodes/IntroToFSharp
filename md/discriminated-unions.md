@@ -4,8 +4,6 @@
 
 ![Suite](assets/img/suite.jpg)
 
----
-
 @quote[Unit tests are a poor man's compiler]
 
 ---?code=code/du/hotel.fsx&lang=fs

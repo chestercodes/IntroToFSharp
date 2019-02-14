@@ -3,8 +3,6 @@
 
 ![MarsRover](assets/img/marsRover.jpg)
 
----
-
 @quote[Units-of-measure are to science what types are to programming.]
 
 ---
