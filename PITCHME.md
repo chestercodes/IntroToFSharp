@@ -37,7 +37,5 @@
 
 ---?include=md/type-providers.md
 
----?include=md/considerations.md
-
 ---?include=md/other-cool-stuff.md
 

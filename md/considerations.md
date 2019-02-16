@@ -1,7 +1,7 @@
 ### Considerations
 
 - C# is 'good enough'
-- Chicken / egg
+- Popularity problems
   - Hiring 
   - Dev tools
   - Libraries
@@ -14,8 +14,10 @@
   - DI containers not really used
   - Fewer layers
   - Functional paradigm different
+  - Different data access paradigm
 - Compiler Driven Development
-  - Steep learning curve
+  - Learning curve
+  - Expression over statement
 
 ---
 
@@ -28,3 +30,14 @@
   - Testing
 - Scripting / REPL
 - Everything else
+
+
+---
+
+### Resources
+
+- [MSDN Docs](https://docs.microsoft.com/en-us/dotnet/fsharp/)
+- [fsharp for fun and profit - Scott Wlaschin](https://fsharpforfunandprofit.com/)
+- [Domain Modelling Made Functional book - Scott Wlaschin](https://pragprog.com/book/swdddf/domain-modeling-made-functional)
+- [ 'A Functional Architecture with F#' pluralsight course - Mark Seemann](https://www.pluralsight.com/courses/functional-architecture-fsharp)
+- [A Github repo list of F# projects. ](https://github.com/fsprojects/awesome-fsharp)
