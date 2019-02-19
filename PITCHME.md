@@ -39,3 +39,8 @@
 
 ---?include=md/other-cool-stuff.md
 
+---
+
+That's it folks...
+
+Thanks for listening :-) Any questions?
