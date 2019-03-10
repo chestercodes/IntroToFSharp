@@ -8,6 +8,7 @@ type Contact =
     | JustEmail of Email
     | JustPhone of Phone
     | EmailAndPhone of Email * Phone
+    | SomethingElse
 
 module Utils =
     let emailValue (Email email) = email
